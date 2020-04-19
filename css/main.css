@@ -1,0 +1,133 @@
+body {
+  font-family: Roboto Mono, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+header {
+  position: fixed;
+  z-index: 10;
+  max-width: 1440px;
+  top: 0;
+  right: auto;
+  left: auto;
+  bottom: auto;
+  width: 100%;
+  height: 80px;
+  background: #FFF;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.home__header {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background: url(../img/img-background.png);
+}
+
+.home__header h1 {
+  position: relative;
+  width: 497px;
+  height: 108px;
+  left: 119px;
+  top: 301px;
+  font-family: Cairo, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 150%;
+  letter-spacing: 0.03em;
+  color: #C53E29;
+}
+
+.home__sub-header {
+  width: 100%;
+  height: 240px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.home__sub-header_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 50%;
+  left: 10px;
+  height: 10em;
+  margin-top:-5em
+}
+
+.home__sub-header_content_1 {
+  flex: 50%;
+}
+
+.home__sub-header_content_stub {
+  flex: 40%;
+}
+
+.home__sub-header_content_2 {
+  text-align: center;
+  flex: 10%;
+}
+
+.home__sub-header_content_marks {
+  display: inline-block;
+}
+
+.home__sub-header_content_marks > span {
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.home__sub-header_content_marks > span > * {
+  vertical-align: middle;
+}
+
+.home__sub-header_marks_dot {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* Common */
+
+.color-new {
+  background-color: #ccc;
+}
+
+.color-scheduled-ns {
+  background-color: red;
+}
+
+.color-scheduled-s {
+  background-color: #06f;
+}
+
+.color-started {
+  background-color: #ff0;
+}
+
+.color-suspended {
+  background-color: #999;;
+}
+
+.color-cancelled {
+  background-color: #333;
+}
+
+.color-done {
+  background-color: #26de81;
+}
